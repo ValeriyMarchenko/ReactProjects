@@ -1,0 +1,26 @@
+header {
+    color: blue;
+    background-color: blanchedalmond;
+    font-size: 16px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid  gray;
+}
+
+.largeBtn:hover {
+    background: blue;
+    color: aliceblue;
+}
+
+.smallBtn:hover {
+    background: red;
+    color: aliceblue;
+}

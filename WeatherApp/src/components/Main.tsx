@@ -1,12 +1,15 @@
-import React from "react";
+import * as React from "react";
 import "../styles/Main.css"
-import Countries from "./Countries"
+import WeatherApi from "./WeatherApi";
+
 
 function Main() {
+    
+
     return (
         <main>
             <div>
-                <Countries/>
+                <WeatherApi/>
             </div>
         </main>
     );  

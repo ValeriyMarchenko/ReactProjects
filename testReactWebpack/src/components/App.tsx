@@ -1,16 +1,17 @@
-import React from "react";
+import * as React from "react";
 import "../styles/App.css"
-import Header from "./Header.js"
-import Main from "./Main.js"
+import Header from "./Header"
+import Main from "./Main"
 
 function App()  {
     const buttonNewName = "Button"
     
     return (
-        <React.Fragment>
+        // as React.Fragment
+        <>      
             <Header buttonName = {buttonNewName} />
             <Main/>
-        </React.Fragment>
+        </>
     );
   
 }
